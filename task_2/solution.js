@@ -18,7 +18,7 @@ function calcShipping(sum, min, shipping) {
     return shippingSum;
 }
 
-function calcDiscount(sum, min, discount) {
+function calcDiscount(sum, min, discount) 
     let productsSum = sum; // сумма в корзине
     let discountMinSum = min; // минимальная цена для скидки
     let discountPart = discount; // величина скидки в процентах
