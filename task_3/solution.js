@@ -4,9 +4,9 @@ function renderCartItem(item) {
     // Задание №3.1. Формирование строки корзины
     let itemCountText;
     itemCountText = ` `;
-    itemCountText += count;
+    itemCountText += product.count;
     itemCountText += ` × `;
-    itemCountText += price;
+    itemCountText += product.price;
     itemCountText += ` ₽ = `;
     let sum = product.count * product.price;
     itemCountText += sum;
