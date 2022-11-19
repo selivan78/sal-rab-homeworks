@@ -36,7 +36,7 @@
 function sendRequest (name, phone, address, goods, sum) {
     let data = {
         client: (name + " " + phone),  
-        order: {address: ("улица" + address.street + ", дом " + address.home + ", подъезд " + address.entrance + ", этаж " + address.floor + ", кватира " + address.flat),
+        order: {address: ("ул." + address.street + ", дом " + address.house + ", подъезд " + address.entrance + ", этаж " + address.floor + ", кв " + address.flat),
                  sum
                }, 
         goods: []
